@@ -35,6 +35,7 @@ func NewWorkspaceCmd(
 	// Attach subcommands.
 	newCreateCmd(cmd, o, config)
 	newInspectCmd(cmd, o, config)
+	newListCmd(cmd, o, config)
 	newRenameCmd(cmd, o, config)
 	newArchiveCmd(cmd, o, config)
 	newUnarchiveCmd(cmd, o, config)
